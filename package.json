@@ -1,0 +1,24 @@
+{
+  "name": "jest-testing-binar-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start:dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "jest:init": "jest --init"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
